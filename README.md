@@ -20,7 +20,7 @@
        ```
 6. 웹 브라우저에서 http://127.0.0.1:5000 로 접속한다.
 
-| ![workflow.png](이미지/이미지1.png) |
+| ![image](https://github.com/jjun2648/edustats/assets/50532905/3f14a733-0b26-4921-9d09-835830ed5bb3) |
 |:--:|
 | <b> [Figure1] Dashboard 생성 Workflow </b> |
 | 전처리된 데이터프레임을 Indicator Name 컬럼을 추가하여 변경했다. 이후 대시보드를 만들고 분석을 위한 요소를 추가했다. |
