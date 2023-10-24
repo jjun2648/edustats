@@ -13,10 +13,14 @@
 4. plotly express의 trendline 함수를 이용해 c와 마찬가지로 산점도 그래프에 추세선을 추가한다.(edu_stats2.py의 90번 줄)
 5. 일반 실행 파일과 flask를 통한 실행 파일을 생성하고, flask를 통해 로컬 호스팅한다.
     1. 프롬프트에서 실행 파일이 있는 경로로 이동한다.
-    2. 다음의 명령어를 입력한다.
+    2. 다음의 명령어를 입력한다. (iii -> powershell / iv -> bash)
     3. ```powershell
        set FLASK_APP=edu_stats2.py
        flask run
+       ```
+    4. ```bash
+       $ export FLASK_APP=edu_stats2.py
+       $ flask run
        ```
 6. 웹 브라우저에서 http://127.0.0.1:5000 로 접속한다.
 
