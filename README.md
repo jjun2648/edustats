@@ -7,7 +7,7 @@
 사교육비를 비롯한 몇 가지 데이터의 상관관계를 알아보기 쉽게 다양한 상호작용과 분석 결과를 대시보드와 함께 제공하였다. 이를 통해 교육 통계 팀 프로젝트의 결과를 한 눈에 보여주고 결과 분석을 수월하게 하는 것을 목적으로 하였다.
 
 ### 방법
-1. x축과 y축 변수를 (Indicator Name == ‘변수’) 형태로 지정할 수 있도록 Indicator Name 컬럼을 생성한다. 각종 진학률, 사교육비, 음주⬝흡연율 등을 Indicator Name 컬럼으로, 그 값을 value 컬럼으로 저장한다.(Github의 Indicator18_22.csv 데이터프레임)
+1. x축과 y축 변수를 (Indicator Name == ‘변수’) 형태로 지정할 수 있도록 Indicator Name 컬럼을 생성한다. 각종 진학률, 사교육비, 음주⬝흡연율 등을 Indicator Name 컬럼으로, 그 값을 value 컬럼으로 저장한다.(Indicator18_22.csv 데이터프레임)
 2. 상관관계를 보여주는 산점도 그래프를 중심으로 대시보드를 생성했다. 그리고 산점도 그래프의 x축과 y축 값을 연도별로 볼 수 있는 꺾은선 그래프 2개를 보여주도록 만들었다.
 3. scipy 라이브러리의 stats.spearmanr 함수를 이용해 산점도 그래프의 좌상단에 spearman 상관 분석 결과를 띄운다.(edu_stats2.py의 93-96번 줄)
 4. plotly express의 trendline 함수를 이용해 c와 마찬가지로 산점도 그래프에 추세선을 추가한다.(edu_stats2.py의 90번 줄)
